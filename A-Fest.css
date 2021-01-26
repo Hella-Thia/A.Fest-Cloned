@@ -1,0 +1,305 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.B14
+{
+  display: none;
+}
+.img2
+{
+  display: none;
+}
+.R2
+{
+  position: sticky;
+}
+.IF4
+{
+  border-radius: 15px;
+  position: relative;
+  left: 10%;
+}
+.P4
+{
+  position: relative;
+  left: 10%;
+}
+.IF5
+{
+  border-radius: 20px;  
+}
+.P52
+{
+  position: relative;
+  left: 10%;
+}
+.P53
+{
+  position: relative;
+  left: 25%;
+}
+.IF6
+{
+  border-radius: 15px;
+}
+.img7
+{
+  position: relative;
+  border-radius: 15px;
+}
+.P9
+{
+  position: relative;
+  top: 90%;
+}
+.img10
+{
+  position: relative;
+  border-radius: 15px;
+}
+.img11
+{
+  border-radius: 15px 15px 0 0;
+}
+.D11
+{
+  box-shadow: 
+}
+.P11,.H11
+{
+  position: relative;
+  top: 50%;
+  left: 65%;
+}
+
+
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+@media only screen and (max-width: 1425px)
+{
+  .IF5
+  {
+    position: relative;
+    width: 375px;
+    height: 275px;
+  }
+  .D6
+  {
+    position: relative;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 1200px)
+{
+  
+  .IF6
+  {
+    position: relative;
+    width: 450px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 1100px)
+{
+  .IF5
+  {
+    position: relative;
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 1000px)
+{
+  .R1
+  {
+    background-color: white;
+
+  }
+  .B2
+  {
+    display: none;
+  }
+  .img1,.B11,.B13,.B12
+  {
+    display: none;
+  } 
+
+  .B14
+  {
+    display: block;
+    top: 2%;
+  }
+  .img2
+  {
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+  }
+  .H1
+  {
+    font-size: 2.25rem;
+  }
+  .H12
+  {
+    font-size: 1.875rem;
+  }
+  .IF6
+  {
+    position: relative;
+    width: 350px;
+    height: 250px;
+  }
+  .H6
+  {
+    position: relative;
+    font-size: 1.875rem;
+  }
+  .P6
+  {
+    position: relative;
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .H1
+  {
+    font-size: 1.875rem;
+  }
+  .H12
+  {
+    font-size: 1.5rem;
+  }
+  .IF5
+  {
+    padding: 0px;
+    position: relative;
+    width: 450px;
+    height: 315px;
+  }
+  .P52,.P53
+  {
+    position: relative;
+    left: 0%;
+  }
+  .IF6
+  {
+    position: relative;
+    width: 450px;
+    height:315px;
+  }
+  .D6
+  {
+    position: relative;
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  .img2
+  {
+    position: absolute;
+    top: 2.5%;
+  }
+  .B14
+  {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    float: right;
+  }
+  .H1
+  {
+    font-size: 1.5rem;
+  }
+  .H12
+  {
+    font-size: 1.25rem;
+  }
+  .IF4
+  {
+    position: relative;
+    left: 0%;
+  }
+  .P1
+  {
+    position: relative;
+    left: 0%;
+  }
+  .IF4
+  {
+    position: relative;
+    width: 450px;
+    height: 300px;
+  }
+  .IF5
+  {
+    padding: 0px;
+
+  }
+  .P52,.P53
+  {
+    position: relative;
+    left: 0%;
+  }
+  .img7,.img10,.img11
+  {
+    position: relative;
+    width: 100%;
+  }
+}
